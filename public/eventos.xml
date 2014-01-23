@@ -1,0 +1,91 @@
+<eventos>
+    <evento>
+        <id>0</id>
+        <contenido>Chisme 0</contenido>
+        <imagenes>
+            <imagen>url 0</imagen>
+        </imagenes>
+        <date>Wed Jan 20 00:50:28</date>
+        <publicaciones>
+            <publicacion>
+                <id>0</id>
+                <nombre>Publicacion X</nombre>
+                <contenido>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </contenido>
+                <imagenes>
+                    <imagen>url1</imagen>
+                    <imagen>url2</imagen>
+                </imagenes>
+                <hastags>
+                    <hashtag>#prueba1</hashtag>
+                    <hashtag>#prueba2</hashtag>
+                </hastags>
+            </publicacion>
+        </publicaciones>
+    </evento>
+    <evento>
+        <id>1</id>
+        <contenido>Chisme 1</contenido>
+        <imagenes>
+            <imagen>url 1</imagen>
+        </imagenes>
+        <date>Wed Jan 21 05:50:28</date>
+        <publicaciones>
+            <publicacion>
+                <id>1</id>
+                <nombre>Publicacion Y</nombre>
+                <contenido>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </contenido>
+                <imagenes>
+                    <imagen>url1</imagen>
+                    <imagen>url2</imagen>
+                </imagenes>
+                <hastags>
+                    <hashtag>#prueba1</hashtag>
+                    <hashtag>#prueba3</hashtag>
+                </hastags>
+            </publicacion>
+        </publicaciones>
+    </evento>
+    <evento>
+        <id>2</id>
+        <contenido>Chisme 2</contenido>
+        <imagenes>
+            <imagen>url 2</imagen>
+            <imagen>url 3</imagen>
+        </imagenes>
+        <date>Wed Jan 22 15:50:28</date>
+        <publicaciones>
+            <publicacion>
+                <id>2</id>
+                <nombre>Publicacion Z</nombre>
+                <contenido>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </contenido>
+                <imagenes>
+                    <imagen>url1</imagen>
+                    <imagen>url2</imagen>
+                </imagenes>
+                <hastags>
+                    <hashtag>#prueba2</hashtag>
+                </hastags>
+            </publicacion>
+            <publicacion>
+                <id>3</id>
+                <nombre>Publicacion XYZ</nombre>
+                <contenido>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </contenido>
+                <imagenes>
+                    <imagen>url1</imagen>
+                    <imagen>url2</imagen>
+                </imagenes>
+                <hastags>
+                    <hashtag>#prueba2</hashtag>
+                </hastags>
+            </publicacion>
+        </publicaciones>
+    </evento>
+</eventos>
