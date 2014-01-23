@@ -5,24 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: <tt>ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]</tt>
 
-* System dependencies
+* System dependencies: gcc, g++ and maybe standard make libs and sqlite3.h
 
-* Configuration
+* Deployment instructions:
+	* <tt>bundle install</tt>
+	* <tt>rails server</tt> development server running on port 3000
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
+* Configuration with Apache2: (coming soon)
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
