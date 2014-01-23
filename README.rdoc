@@ -10,8 +10,8 @@ Things you may want to know:
 * System dependencies: gcc, g++ and maybe standard make libs and sqlite3.h
 
 * Deployment instructions:
-	* <tt>bundle install</tt>
-	* <tt>rails server</tt> development server running on port 3000
+    <tt>bundle install</tt>
+    <tt>rails server</tt> development server running on port 3000
 
 * Configuration with Apache2: (coming soon)
 
