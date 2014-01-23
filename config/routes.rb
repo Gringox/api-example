@@ -1,8 +1,10 @@
 Example::Application.routes.draw do
+  get "api/index"
   get "service/show_all"
   get "service/show_category"
   get "service/show_time"
   get "service/show_event_post"
+  root "api#index", as: "api"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

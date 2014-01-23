@@ -2,59 +2,51 @@
     <publicacion>
         <id>0</id>
         <nombre>Publicacion X</nombre>
-        <contenido>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </contenido>
+        <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</contenido>
         <imagenes>
             <imagen>url1</imagen>
             <imagen>url2</imagen>
         </imagenes>
-        <hastags>
+        <hashtags>
             <hashtag>#prueba1</hashtag>
             <hashtag>#prueba2</hashtag>
-        </hastags>
+        </hashtags>
     </publicacion>
     <publicacion>
         <id>1</id>
         <nombre>Publicacion Y</nombre>
-        <contenido>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </contenido>
+        <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</contenido>
         <imagenes>
             <imagen>url1</imagen>
             <imagen>url2</imagen>
         </imagenes>
-        <hastags>
+        <hashtags>
             <hashtag>#prueba1</hashtag>
             <hashtag>#prueba3</hashtag>
-        </hastags>
+        </hashtags>
     </publicacion>
     <publicacion>
         <id>2</id>
         <nombre>Publicacion Z</nombre>
-        <contenido>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </contenido>
+        <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</contenido>
         <imagenes>
             <imagen>url1</imagen>
             <imagen>url2</imagen>
         </imagenes>
-        <hastags>
+        <hashtags>
             <hashtag>#prueba2</hashtag>
-        </hastags>
+        </hashtags>
     </publicacion>
     <publicacion>
         <id>3</id>
         <nombre>Publicacion XYZ</nombre>
-        <contenido>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </contenido>
+        <contenido>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</contenido>
         <imagenes>
             <imagen>url1</imagen>
             <imagen>url2</imagen>
         </imagenes>
-        <hastags>
+        <hashtags>
             <hashtag>#prueba2</hashtag>
-        </hastags>
+        </hashtags>
     </publicacion>
 </publicaciones>

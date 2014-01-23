@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Ruby on Rails: Web development that doesn't hurt:
+		</title>
+	<link href="images/Ruby_on_Rails-logo.png" type="image/x-icon" rel="icon" /><link href="images/Ruby_on_Rails-logo.png" type="image/x-icon" rel="shortcut icon" />
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+
+$(document).ready(function () {
+	$("h3").bind('click', function(){
+		$(this).parent().find(".content").slideToggle( "slow" );
+	});
+	
+	$("a").bind('click', function(){
+		var domain = window.location.href;
+		domain = domain.substring(0, domain.length - 1) + $(this).html();
+		
+		window.location = domain;
+		
+		return false;
+	});
+});
+
+</script>
+
+</head>
+<body>
+	<div id="container">
+
+		<div id="header">
+			<div id="headerText"><h1><%= link_to "Ruby on Rails: Web development that doesn't hurt", "http://www.rubyonrails.org/" %></h1></div>
+			<div id="imageDiv"><img src="http://rubyonrails.org/images/rails.png" height="42" width="42" /></div>
+		</div>
+		<div id="content">
+
+<h2>API Demostrativa</h2>
+<div class="function">
+	<h3>Listado de Publicaciones o Eventos</h3>
+	<div class="content">
+		<label>Url</label>
+		<p>/service/show_all.xml</p>
+		<p>/service/show_all.json</p>
+		<p>/service/show_all.yaml</p>
+		<label>Parametros</label>
+		<ul>
+			<li>Obligatorios</li>
+			<ul>
+				<li class="field_none">content</li>
+					<ul>
+						<li class="field_name"><label>Tipo</label> string</li>
+						<li class="field_name"><label>Posibles Valores</label> publicaciones/eventos</li>
+					</ul>
+			</ul>
+		</ul>
+		<label>Respuesta</label>
+		<ul>
+			<li>Mensaje</li>
+			<ul>
+				<li><label>Tipo</label>xml/json/yaml</li>
+			</ul>
+		</ul>
+		<label>Ejemplo de llamada</label>
+                <ul>
+                        <li>XML</li>
+                        <ul>
+                                <li><label>Publicaciones</label><p>/service/show_all.xml?content=publicaciones<p></li>
+				<li><label>Eventos</label><p>/service/show_all.xml?content=eventos<p></li>
+                        </ul>
+			<li>JSON</li>
+                        <ul>
+                                <li><label>Publicaciones</label><p>/service/show_all.json?content=publicaciones<p></li>
+                                <li><label>Eventos</label><p>/service/show_all.json?content=eventos<p></li>
+                        </ul>
+			<li>YAML</li>
+                        <ul>
+                                <li><label>Publicaciones</label><p>/service/show_all.yaml?content=publicaciones<p></li>
+                                <li><label>Eventos</label><p>/service/show_all.yaml?content=eventos<p></li>
+                        </ul>
+                </ul>
+	</div>
+</div>
+<div class="function">
+<h3>Listado de Publicaciones por Categoria (Hashtag)</h3>
+        <div class="content">
+                <label>Url</label>
+                <p>/service/show_category.xml</p>
+                <p>/service/show_category.json</p>
+                <p>/service/show_category.yaml</p>
+                <label>Parametros</label>
+                <ul>
+                        <li>Obligatorios</li>
+                        <ul>
+                                <li class="field_none">hashtag</li>
+                                        <ul>
+                                                <li class="field_name"><label>Tipo</label> string</li>
+                                                <li class="field_name"><label>Posibles Valores</label> [a-zA-Z0-9_-]{3,}</li>
+                                        </ul>
+                        </ul>
+                </ul>
+                <label>Respuesta</label>
+                <ul>
+                        <li>Mensaje</li>
+                        <ul>
+                                <li><label>Tipo</label>xml/json/yaml</li>
+                        </ul>
+                </ul>
+                <label>Ejemplo de llamada</label>
+                <ul>
+                        <li>XML</li>
+                        <ul>
+                                <li><label>Publicaciones filtradas por #prueba1</label><p>/service/show_category.xml?hashtag=prueba1<p></li>
+                        </ul>
+                        <li>JSON</li>
+                        <ul>
+                                <li><label>Publicaciones filtradas por #prueba2</label><p>/service/show_category.json?hashtag=prueba2<p></li>
+                        </ul>
+                        <li>YAML</li>
+                        <ul>
+                                <li><label>Publicaciones filtradas por #prueba3</label><p>/service/show_category.yaml?hashtag=prueba3<p></li>
+                        </ul>
+                </ul>
+        </div>
+
+</div>
+</div></div>
+		<div id="footer">
+	</div>
+
+</body>
+</html>
